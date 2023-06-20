@@ -40,7 +40,7 @@ const MoviePage = ({movies, status}) => {
 
   const deleteMovie = async () => {
     try {
-      const response = await axios.delete(`http://localhost:8080/movie/${router.query.id}`, {
+      const response = await axios.delete(`https://watchme-app.onrender.com/movie/${router.query.id}`, {
         headers: {
           authorization: Cookies.get('token'),
         },
@@ -131,7 +131,7 @@ export async function getServerSideProps(ctx: any) {
     });
 
   try {
-    const response = await axios.get(`http://localhost:8080/movie/${ctx.query.id}`, {
+    const response = await axios.get(`https://watchme-app.onrender.com/movie/${ctx.query.id}`, {
         headers: {
           authorization: token,
         },

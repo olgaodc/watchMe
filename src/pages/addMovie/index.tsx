@@ -12,7 +12,7 @@ const newMovie = () => {
   const [isSuccess, setSuccess] = useState(false);
 
   const createMovie = async () => {
-    const response = await axios.post('http://localhost:8080/addMovie', {
+    const response = await axios.post('https://watchme-app.onrender.com/addMovie', {
       title: title,
       image: image,
       contentText: contentText,

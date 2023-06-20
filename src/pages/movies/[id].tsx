@@ -91,7 +91,7 @@ export async function getServerSideProps(ctx: any) {
       }
     });
 
-    const response = await axios.get(`http://localhost:8080/movies/${userId}`,
+    const response = await axios.get(`https://watchme-app.onrender.com/movies/${userId}`,
       {
         headers: {
           authorization: token,

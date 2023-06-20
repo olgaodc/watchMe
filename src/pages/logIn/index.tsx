@@ -16,7 +16,7 @@ function LogInPage() {
 
     const logIn = async () => {
         try {
-            const response = await axios.post('http://localhost:8080/logIn', {
+            const response = await axios.post('https://watchme-app.onrender.com/logIn', {
                 email: email,
                 password: password,
             });

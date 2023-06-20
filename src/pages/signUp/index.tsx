@@ -15,7 +15,7 @@ const SignUpPage = () => {
     const [isSuccess, setSuccess] = useState(false);
 
     const createUser = async () => {
-        const response = await axios.post('http://localhost:8080/user', {
+        const response = await axios.post('https://watchme-app.onrender.com/user', {
             name: name,
             surname: surname,
             password: password,
