@@ -1,0 +1,49 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.movieFormWrapper {
+    height: calc(100vh - 216px);
+    margin-top: 100px;
+}
+
+.movieForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.movieFormTitle {
+    margin: 0 30px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+.movieForm input, .movieForm textarea {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    width: 40%;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: none;
+    resize: none;
+}
+
+.createButton {
+    background-color: #638497;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.createButton:hover {
+    background-color: #2f5167;
+}

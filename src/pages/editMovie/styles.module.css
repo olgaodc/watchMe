@@ -1,0 +1,50 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.movieWrapper {
+    height: calc(100vh - 216px);
+    margin-top: 100px;
+}
+
+.movieForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.movieForm input[type='text'], .movieForm textarea {
+    font-family: 'Inter', sans-serif;
+    resize: none;
+    font-size: 13px;
+    width: 40%;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: none;
+}
+
+.movieForm input[type='checkbox'] {
+    cursor: pointer;
+}
+
+.movieForm textarea {
+    height: 70px;
+}
+
+.updateButton {
+    background-color: #638497;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.updateButton:hover {
+    background-color: #2f5167;
+}

@@ -1,0 +1,21 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.footerWrapper {
+    background-color: rgb(37, 36, 36);
+}
+
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footerInfo {
+    font-size: 14px;
+    font-weight: 500;
+    color: whitesmoke;
+}

@@ -1,0 +1,38 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.moviesWrapper {
+    margin-top: 50px;
+    height: calc(100vh - 166px);
+}
+
+.moviesTitle {
+    margin: 0 0 20px;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.addNewMovieIcon {
+    width: 35px;
+}
+
+.addNewMovie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(231, 231, 231);
+    height: 180px;
+    width: 230px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: pointer;
+}

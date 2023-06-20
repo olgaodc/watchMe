@@ -1,0 +1,69 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.formWrapper {
+    margin-top: 100px;
+    height: calc(100vh - 216px);
+}
+
+.formTitle {
+    text-align: center;
+    margin: 0 0 25px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.form input {
+    width: 40%;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: none;
+}
+
+.signUpButton {
+    background-color: #638497;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    font-weight: 600;
+    color: rgb(246, 246, 246);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.signUpButton:hover {
+    background-color: #2f5167;
+}
+
+.formTextWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.formTextLink {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.formTextLink:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.message {
+    color: rgb(24, 119, 24);
+    font-weight: 600;
+}

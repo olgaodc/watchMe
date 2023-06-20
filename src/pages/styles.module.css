@@ -1,0 +1,14 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.contentWrapper {
+    height: calc(100vh - 166px);
+    margin-top: 50px;
+}
+
+.contentTitle {
+    margin: 0;
+}

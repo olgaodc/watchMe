@@ -1,0 +1,18 @@
+.movieCard {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(231, 231, 231);
+    height: 180px;
+    width: 230px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movieTitle {
+    font-size: 18px;
+    font-weight: 600;
+}

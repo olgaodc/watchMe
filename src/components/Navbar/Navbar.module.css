@@ -1,0 +1,54 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+}
+
+.navbarWrapper {
+    background-color: rgb(37, 36, 36);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.logoLink {
+    text-decoration: none;
+}
+
+.logoText {
+    font-size: 24px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.logoTextMe {
+    color: rgb(176, 30, 30);
+}
+
+.navbarList {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.listItem {
+    list-style-type: none;
+}
+
+.itemLink {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.itemLink:hover {
+    opacity: 0.7;
+}
