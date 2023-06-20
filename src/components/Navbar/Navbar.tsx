@@ -14,7 +14,7 @@ const [userId, setUserId] = useState('');
 
 const checkUserLoggedIn = async () => {
     try {
-        const response = await axios.get('http://localhost:8080/auth', { headers: {
+        const response = await axios.get('https://watchme-app.onrender.com/auth', { headers: {
             authorization: Cookies.get("token"),
         }});        
 
