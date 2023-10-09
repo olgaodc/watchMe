@@ -2,6 +2,7 @@
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import styles from './styles.module.css';
+import comingSoon from '../assets/coming-soon.png'
 
 
 export default function Home() {
@@ -10,7 +11,9 @@ export default function Home() {
       <Navbar/>
       <div className={styles.contentWrapper}>
         <div className={styles.container}>
-          <h1 className={styles.contentTitle}>The Best App In The World</h1>
+          <div className={styles.imageWrapper}>
+            <img className={styles.image} src={comingSoon.src} alt="coming soon" />
+          </div>
         </div>
       </div>
       <Footer/>
